@@ -14,16 +14,11 @@ print(not n)
 
 
         #4. Write a Python program to check if a given number is Even or Odd.
-
-print(int(input('Enter your digit: ')) % 2 == 0)
+digit = int(input('Enter your digit: '))
+print('Even' if digit % 2 == 0 else 'Odd')
 
         #5. Write a Python program to find largest number among three numbers
         #entered by user.
 
 n1, n2, n3 = int(input('First digit: ')), int(input('Second digit: ')),int(input('Third digit: '))
-res1 = n2 <= n1 >= n3 and\
-    print(f'{n1} is the bigger')
-res2 = n1 <= n2 >= n3 and\
-    print(f'{n2} is the bigger')
-res3 = n1 <= n3 >= n2 and\
-    print(f'{n3} is the bigger')
+print(max(n1, n2, n3))
