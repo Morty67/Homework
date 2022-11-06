@@ -1,4 +1,4 @@
-#Task 1
+#Task 1.
 n = int(input('Apartment number: '))
 entrance = (n + 35) // 36
 floor = ((n - 1) // 4 + 1) % 9 or 9
