@@ -1,14 +1,18 @@
-
+#  Модифікуйте Перше домашнє завдання так,
+# щоб при спробі встановити від'ємну або нульову вартість товару викликалася виняткова ситуація\
+# (тип виняткової ситуації треба самостійно реалізувати).
 class Product:
     def __init__(self, description, price, size):
         self.description = description
         self.price = price
         self.size = size
+        if self.price <= 0:
+            raise ValueError('Prise must be only positive')
 
     def __str__(self):
         return f'Product - {self.description}, size - {self.size}, price - {self.price}'
-tea = Product('tea', 44.20, 'small')
-coffe = Product('coffe', 290.50, 'big')
+tea = Product('tea', 0, 'small')
+coffe = Product('coffe', -1, 'big')
 bread = Product('bread', 18.80, 'average')
 
 
