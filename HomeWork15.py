@@ -60,10 +60,11 @@ class Rational:
     def __init__(self, a: int, b: int):
         if not isinstance(a and b, int):
             raise TypeError('Only int')
-        self.a = a
-        self.b = b
         if not self.b:
             raise ZeroDivisionError("Can't be zero")
+        self.a = a
+        self.b = b
+
 
 
     def __gt__(self, other): # більше
