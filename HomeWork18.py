@@ -51,8 +51,7 @@ print(f'Time for memoization - {timeit(temp2_mem, number=20)}')
 # Task3
 
 def seq(my_list: list, user_func):
-    res = []
-    for_res = [res.append(item) for item in my_list if user_func(item)]
+    res = [item for item in my_list if user_func(item)]
     return sum(res)
 
 
