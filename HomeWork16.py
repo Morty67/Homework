@@ -1,4 +1,7 @@
-
+# Task1 Add the Group class (task in Lecture 2) with the ability to support
+# iteration protocol.
+# Task2 Modify the Order class (Lesson 1 assignment) by adding an implementation
+# sequence protocol and iteration protocol. 
 class Product:
     def __init__(self, description, price, size):
         if self.price <= 0:
