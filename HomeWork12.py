@@ -1,3 +1,14 @@
+# 1. Create a class that describes a person (create a method that displays information about the person).
+
+# 2. On its basis, create a Student class (override the method for displaying information).
+
+# 3. Create a Group class that contains an array of 10 objects of the Student class. 
+# Implement methods for adding, deleting a student and a method for searching for a student by name.  
+# Define the str() method for the Group to return a list of students as a string.
+
+
+
+
 class Human:
 
     def __init__(self, name, surname):
