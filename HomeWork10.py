@@ -1,4 +1,10 @@
+# 1. Create a class to describe the product. As product attributes, you can use the values of the product price, product description, product dimensions.
+# Create a couple of instances of your class and test their work.
 
+# 2. Create the "Customer" class. As attributes, you can use the last name, first name, patronymic, cell phone, etc.
+
+# 3. Create the class "Order". An order can contain several items of a certain quantity. The order must contain information about the user who placed it.
+# Implement a method for calculating the total cost of the order. Define the str() method to correctly display information about this order.
 class Product:
     def __init__(self, description, price, size):
         self.description = description
