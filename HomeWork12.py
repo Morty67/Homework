@@ -1,3 +1,8 @@
+# 1. Modify the first homework assignment so that when you try to set a negative or zero value for an item, an exception is raised (the type of exception is up to you).
+
+# 2. Modify the Second Homework so that when you try to add more than 10 students to the group, an exception is thrown (the type of exception is up to you).
+# The event of adding a new student to the group should be recorded in a log file.
+
 import logging
 logger = logging.getLogger('HomeWork12')
 logger.setLevel(logging.DEBUG)
