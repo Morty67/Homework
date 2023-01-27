@@ -1,11 +1,14 @@
 #Task1
-#ls = [0, 2, 4, 6, 8, 10, 12]
-#ls = [1, 4, 7, 10, 13]
-#ls = [1, 2, 4, 8, 16, 32]
-#ls = [1, 3, 9, 27]
-#ls = [1, 4, 9, 16, 25]
-#ls = [1, 8, 27, 64, 125]
 
+# There are the following sequences of numbers:
+# 0,2,4,6,8,10,12
+# 1,4,7,10,13
+# 1,2,4,8,16,32
+# 1,3,9,27
+# 1,4,9,16,25
+# 1,8,27,64,125
+# Implement a program that displays the next member of this sequence (or similar) on the screen.
+# The user enters the sequence from the keyboard as a string. For example, the user enters the string 0,5,10,15,20,25 and the program should respond with the number 30.
 def dif(ls):
     diff = ls[1] - ls[0]
     for i in range(len(ls)):
@@ -42,7 +45,11 @@ def main_func(dif,x2, x3, xx2,xx3, ls):
 ls = list(map(int, list(input('Enter your subsequence: ').replace(',', ' ').split())))
 
 print(main_func(dif,x2,x3,xx2,xx3,ls))
-###Task2
+# Task2
+# A palindrome number is read the same on both sides (right and left).
+# The largest palindrome number obtained by multiplying two two-digit numbers: 9009 = 91 × 99. 
+# Find the largest palindrome obtained by multiplying two three-digit numbers.
+# Print the value of this palindrome and the vyj;tyyzv of which numbers it is.
 
 first_digit = 0
 second_digit = 0
