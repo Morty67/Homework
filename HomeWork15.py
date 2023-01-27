@@ -1,4 +1,12 @@
 import math
+
+# Task1 Create a "Rectangle" class that has two fields
+# (width and height). Implement the method of comparing rectangles by
+# area. Also implement methods of adding rectangles (the area
+# of the sum rectangle must be equal to the sum of the areas
+# of the rectangles you are adding). Implement methods for
+# of multiplying a rectangle by a number n (this should increase the area
+# of the base rectangle by a factor of n).
 class Rectangle:
 
     def __init__(self, width: int | float, height: int | float):
@@ -53,7 +61,8 @@ print(x + 2)
 print(fist_rectangle + second_rectangle)
 print(fist_rectangle * n)
 
-
+# Task2 Create a class "Right Fraction" and implement methods of comparison,
+# addition, subtraction, and product methods for instances of this class.
 
 class Rational:
 
