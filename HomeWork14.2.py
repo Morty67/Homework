@@ -1,3 +1,5 @@
+# Separate the classes used to solve the ordering task and the group of students by module. Make sure the projects are working properly.
+
 import module_group
 import module_student
 
