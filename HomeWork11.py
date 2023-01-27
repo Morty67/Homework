@@ -1,6 +1,5 @@
-#  Модифікуйте Перше домашнє завдання так,
-# щоб при спробі встановити від'ємну або нульову вартість товару викликалася виняткова ситуація\
-# (тип виняткової ситуації треба самостійно реалізувати).
+# # Modify the first homework assignment as follows, so that when you try to set a negative or zero value for an item, an exception is thrown
+# (the type of exception you need to implement yourself).
 class Product:
     def __init__(self, description, price, size):
         self.description = description
