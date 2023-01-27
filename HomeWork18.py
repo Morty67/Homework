@@ -7,7 +7,6 @@ def my_gen_func(num: int = 1, count: int = 5, func_from_user: object = None):
         yield func_from_user(num)
         num += 1
         index += 1
-    return
 
 
 def func_from_user(num):
@@ -51,7 +50,7 @@ print(f'Time for memoization - {timeit(temp2_mem, number=20)}')
 # Task3
 
 def seq(my_list: list, user_func):
-    res = [item for item in my_list if user_func(item)]
+    res = (item for item in my_list if user_func(item))
     return sum(res)
 
 
